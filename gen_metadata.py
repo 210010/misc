@@ -1,5 +1,5 @@
 #-*- coding:utf-8 -*-
-# 데이터 셋을 받았는데, 한글 인코딩이 CP949, UTF8으로 변환하고, <WAV:TEXT> 데이터 셋으로 변환 예정
+# 데이터 셋을 받았는데, 한글 인코딩이 CP949, UTF8으로 변환하고, <WAV:TEXT> 형태로 변환 해야 하는데... 
 
 import os, fnmatch
 listOfFiles = os.listdir('.')
