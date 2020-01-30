@@ -3,9 +3,11 @@
 
 * TEXT Encoding 변환
   + ICONV on terminal
-  <pre><code>
+  <pre>
+  <code>
     iconv -f CP949 -t UTF-8 test.txt > out.txt
-  </code></pre>
+  </code>
+  </pre>
 
 * PCM to WAV
 <pre><code>
