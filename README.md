@@ -3,10 +3,14 @@
 
 * TEXT Encoding 변환
   + ICONV on terminal
+  <pre>
   <code>
     iconv -f CP949 -t UTF-8 test.txt > out.txt
   </code>
+  </pre>
+  
   + Python Code
+  <pre>
   <code>
   for entry in listOfFiles:
 	if fnmatch.fnmatch(entry, pattern):
@@ -17,6 +21,7 @@
 			# content = content.decode('euckr').encode('utf-8')
 			print(content)
   </code>
+  </pre>
 
 * PCM to WAV
 <pre><code>
