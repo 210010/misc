@@ -1,7 +1,7 @@
 # Misc
 프로젝트 진행 중, 이런 저런 잡다한 것들 모아둔 곳...
 
-* TEXT Encoding 변환
+## TEXT Encoding 변환
   + ICONV on terminal
   <pre>
   <code>
@@ -23,7 +23,7 @@
   </code>
   </pre>
 
-* PCM to WAV
+## PCM to WAV
     <pre><code>
 	for input_file in `find . -name "*.pcm"`
 	do
