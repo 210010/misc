@@ -6,6 +6,8 @@
   <pre>
   <code>
     iconv -f CP949 -t UTF-8 test.txt > out.txt
+    
+    find . -type f -exec bash -c 'iconv -f cp949 -t utf-8 {} > {}.utf8 && mv {}.utf8 {}' -- {} \;
   </code>
   </pre>
   
